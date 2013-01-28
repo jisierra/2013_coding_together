@@ -21,7 +21,7 @@
                 card.rank = rank;
                 card.suit = suit;
                 
-                [PlayingCardDeck addCard:card atTop];
+                [self addCard:card atTop:YES];
             }
         }
     }
