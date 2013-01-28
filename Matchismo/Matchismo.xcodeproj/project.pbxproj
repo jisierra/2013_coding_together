@@ -21,6 +21,7 @@
 		C9731B3516B5E76000FADC16 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B3416B5E76000FADC16 /* Card.m */; };
 		C9731B3816B5E7BB00FADC16 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = C9731B3716B5E7BB00FADC16 /* Deck.m */; };
 		C9E6FF6D16B677DA00DAEF16 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E6FF6C16B677DA00DAEF16 /* PlayingCard.m */; };
+		C9E6FF7116B67E9700DAEF16 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E6FF7016B67E9700DAEF16 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		C9731B3716B5E7BB00FADC16 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 		C9E6FF6B16B677DA00DAEF16 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
 		C9E6FF6C16B677DA00DAEF16 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		C9E6FF6F16B67E9700DAEF16 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		C9E6FF7016B67E9700DAEF16 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				C9731B3716B5E7BB00FADC16 /* Deck.m */,
 				C9731B3416B5E76000FADC16 /* Card.m */,
 				C9E6FF6B16B677DA00DAEF16 /* PlayingCard.h */,
+				C9E6FF6F16B67E9700DAEF16 /* PlayingCardDeck.h */,
+				C9E6FF7016B67E9700DAEF16 /* PlayingCardDeck.m */,
 				C9E6FF6C16B677DA00DAEF16 /* PlayingCard.m */,
 			);
 			name = Model;
@@ -203,6 +208,7 @@
 				C9731B3516B5E76000FADC16 /* Card.m in Sources */,
 				C9731B3816B5E7BB00FADC16 /* Deck.m in Sources */,
 				C9E6FF6D16B677DA00DAEF16 /* PlayingCard.m in Sources */,
+				C9E6FF7116B67E9700DAEF16 /* PlayingCardDeck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
